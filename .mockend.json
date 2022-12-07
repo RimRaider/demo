@@ -1,35 +1,43 @@
 {
-  "Post": {
-    "cover": {
-      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
-    },
-    "title": {
-      "loremWords": {
-        "minLength": 5,
-        "maxLength": 20
-      }
-    },
-    "body": {
-      "loremParagraphs": {
-        "minLength": 10,
-        "maxLength": 100
-      }
-    },
-    "tag": {
-      "string": [
-        "one",
-        "two",
-        "three"
-      ]
-    },
-    "isDraft": {
-      "boolean": {}
-    },
-    "createdAt": {
-      "dateTime": {
-        "min": "2010-01-01T00:00:00Z",
-        "max": "2020-12-31T23:59:59Z"
-      }
-    }
+  "todo":[
+  {
+    "id": 1,
+    "task": "DSA sprint 2 contests",
+    "finished": "false"
+  },
+  {
+    "id": 2,
+    "task": "Finding indian sattelite dataset",
+    "finished": "true"
+  },
+  {
+    "id": 3,
+    "task": "Go to movie",
+    "finished": true
+  },
+  {
+    "task": "plant roses",
+    "finished": false,
+    "id": 4
+  },
+  {
+    "task": "feed the dog",
+    "finished": true,
+    "id": 5
+  },
+  {
+    "task": "Call Aditi ma'am",
+    "finished": false,
+    "id": 6
+  },
+  {
+    "task": "Buy grocerries",
+    "finished": false,
+    "id": 7
+  },
+  {
+    "task": "Book a ticket",
+    "finished": true,
+    "id": 8
   }
 }
